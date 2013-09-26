@@ -411,8 +411,8 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
+ <!-- Vendor packs -->
   <project path="vendor/akm" name="vendor_akm" remote="baked" revision="jb-4.2" />
-  <project path="vendor/asus" name="vendor_asus" remote="baked" revision="jb-4.2" />
   <project path="vendor/audience" name="vendor_audience" remote="baked" revision="jb-4.2" />
   <project path="vendor/baked" name="vendor_baked" remote="baked" revision="jb-4.2" />
   <project path="vendor/baked/bot" name="pseudo_buildbot" remote="baked" revision="jb-4.2" />
@@ -431,24 +431,11 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="baked" revision="jb-4.2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="baked" revision="jb-4.2" />
   <project path="vendor/tmobile/products/themes" name="vendor_tmobile_products_themes" remote="baked" revision="jb-4.2" />
-  <project path="vendor/verizon" name="vendor_verizon" remote="baked" revision="jb-4.2" />
   <project path="vendor/widevine" name="vendor_widevine" remote="baked" revision="jb-4.2" />
-
-  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
-  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="cm" revision="jellybean"/>
-  <project path="kernel/asus/tf201" name="kernel_asus_tf201" remote="baked" revision="jb-4.2" />
-  <project path="kernel/asus/tf700t" name="kernel_asus_tf700t" remote="baked" revision="jb-4.2" />
-  <project path="kernel/htc/dlx" name="kernel_htc_dlx" remote="baked" revision="jb-4.2" />
-  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="cm" revision="cm-10.1" />
+ <!--Kernels .. Left in s3 kernel for Soup -->
   <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" remote="baked" revision="jb-4.2" />
-  <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="baked" revision="jb-4.2" />
-  <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="baked" revision="jb-4.2" />
   <project path="kernel/samsung/p5" name="kernel_samsung_p5" remote="baked" revision="jb-4.2" />
   <project path="kernel/samsung/smdk4412" name="kernel_samsung_smdk4412" remote="baked" revision="jb-4.2" />
   <project path="kernel/samsung/n80xx" name="humberos/android_kernel_samsung_smdk4412" remote="github" revision="cm-10.1" />
-  <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/espresso10" name="android_kernel_samsung_espresso10" remote="cm" revision="cm-10.1" />
-  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
 </manifest>
