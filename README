@@ -1,5 +1,5 @@
-BAKED rom android 4.2
+BAKED rom android 4.2--ish
 
-$ repo init -u https://github.com/TeamBAKED/platform_manifest.git -b jb-4.2
+$ repo init -u https://github.com/S2Heros/platform_manifest.git -b jb-4.2
 $ repo sync
 
